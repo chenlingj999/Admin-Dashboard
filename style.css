@@ -1,0 +1,37 @@
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-column: 2 / 3;
+    background-color: #FFF2D7;
+}
+
+.sidebar {
+    grid-row: 1 / 5;
+    background-color: #F98866;
+    padding: 20px;
+    
+}
+
+.content {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    background-color: #e6e6e6f6;
+}
+
+.trending {
+    grid-column: 2 / 3;
+}
+
+.projects {
+    grid-row: 1 / 3;
+}
