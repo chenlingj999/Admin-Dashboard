@@ -16,12 +16,33 @@ header {
 
 .sidebar {
     grid-row: 1 / 5;
-    background-color: #F98866;
-    padding: 20px;
+    background-color: #e47b5b;
+    padding: 25px;
     display: grid;
+    grid-template-columns: auto 1fr;
     align-content: start;
-    gap: 30px;
+    gap: 1em;
     font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.sidebar img {
+    place-self: center;
+}
+
+.sidebar img {
+    height: 1.7rem;
+    filter: invert(100%) sepia(81%) saturate(5%) hue-rotate(107deg) brightness(103%) contrast(101%);;
+}
+
+#dashboard {
+    font-size: 2rem;
+    align-self: center;
+}
+
+#dashicon {
+    height: 3rem;
 }
 
 .content {
