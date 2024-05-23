@@ -17,7 +17,10 @@ header {
     grid-row: 1 / 5;
     background-color: #F98866;
     padding: 20px;
-    
+    display: grid;
+    align-content: start;
+    gap: 30px;
+    font-size: 1.5rem;
 }
 
 .content {
