@@ -7,11 +7,38 @@ body {
     font-family: "Roboto";
 }
 
-header {
+.header {
     display: grid;
-    grid-template-rows: 1fr 1fr;
     grid-column: 2 / 3;
     background-color: #FFF2D7;
+    padding: 15px 50px;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto auto;
+    gap: 1.5rem;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.top img {
+    height: 2rem;
+}
+
+.top .user {
+    height: 3rem;
+}
+
+#searchbar {
+    background-color: #e6e6e6f6;
+    border-radius: 30px;
+    border: none;
+    height: 2.3rem;
+    max-width: 85%;
+    padding-left: 15px;
+    font-family: "Roboto";
 }
 
 .sidebar {
