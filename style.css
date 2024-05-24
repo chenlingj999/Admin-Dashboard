@@ -2,33 +2,34 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1.5fr 8.5fr;
     padding: 0;
     margin: 0;
     font-family: "Roboto";
 }
 
 .header {
-    display: grid;
     grid-column: 2 / 3;
+    display: grid;
+    align-items: center;
     background-color: #FFF2D7;
-    padding: 15px 50px;
+    padding: 15px 35px;
+    height: auto;
 }
 
 .top {
     display: grid;
     grid-template-columns: auto 1fr auto auto auto;
-    gap: 1.5rem;
+    gap: 2rem;
     align-items: center;
     font-size: 1.3rem;
     font-weight: bold;
-}
-
-.top img {
-    height: 2rem;
-}
-
-.top .user {
-    height: 3rem;
+    img {
+        height: 2rem;
+    }
+    .user {
+        height: 3rem;
+    }
 }
 
 #searchbar {
@@ -39,6 +40,46 @@ body {
     max-width: 85%;
     padding-left: 15px;
     font-family: "Roboto";
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+.uinfo {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    img {
+        height: 4.5rem;
+    }
+    p {
+        margin: 0;
+    }
+}
+
+.greet {
+    font-size: 1rem;
+}
+
+.action {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    button {
+        background-color: #e47b5b;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 5px 30px;
+    }
 }
 
 .sidebar {
