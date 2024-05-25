@@ -127,7 +127,7 @@ body {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 7.5fr 2.5fr;
     grid-template-rows: repeat(2, 1fr);
     gap: 2rem;
     background-color: #dfe4f0f6;
@@ -141,6 +141,32 @@ body {
 
 .annoucements {
     grid-column: 2 / 3;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.announ_inside {
+    display: grid;
+    grid-auto-rows: 1fr;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    h4 {
+        padding: 0;
+        margin: 0;
+    }
+    p {
+        margin-top: 3px;
+    }
+    div {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+#top,
+#mid {
+    border-bottom: 1px solid #c0c0c0;
 }
 
 .projects {
