@@ -37,7 +37,7 @@ body {
 }
 
 #searchbar {
-    background-color: #e6e6e6f6;
+    background-color: #dfe4f0f6;
     border-radius: 30px;
     border: none;
     height: 2.3rem;
@@ -130,7 +130,7 @@ body {
     grid-template-columns: 4fr 1fr;
     grid-template-rows: repeat(2, 1fr);
     gap: 2rem;
-    background-color: #e6e6e6f6;
+    background-color: #dfe4f0f6;
     padding: 15px 35px;
 }
 
