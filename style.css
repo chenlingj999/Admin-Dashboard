@@ -137,6 +137,9 @@ body {
 .trending {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    img {
+        height: 3rem;
+    }
 }
 
 .annoucements {
