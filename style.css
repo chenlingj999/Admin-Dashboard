@@ -223,7 +223,6 @@ body {
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 4px 4px 9px #c0c0c0;
     img {
         height: 1.75rem;
     }
@@ -253,4 +252,10 @@ body {
         gap: 2rem;
         padding-right: 1rem;
     }
+}
+
+.announ_inside,
+.trend_content,
+.container {
+    box-shadow: 4px 4px 9px #c0c0c0;
 }
